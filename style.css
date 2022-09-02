@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#C8ECF8,#D2FBE3);
+    gap: 20px;
+}
+button{
+padding: 10px;
+border: none;
+border-radius: 8px;
+background: linear-gradient(to right,#C8ECF8,#D2FBE3);
+
+}
+.row{
+    background-color: white ;
+    padding: 16px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #B87FB6;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #B87FB6;
+}
+.chips {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    gap: 20px;
+}
+.chip{
+    display: flex;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    gap: 3px;
+    position: relative;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+img{
+    position: absolute;
+    height: 30px;
+    border-radius: 15px;
+    left: -10px;
+}
+.rem{
+    cursor: pointer;
+}
+.bold{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
